@@ -13,7 +13,7 @@ const Header = () => {
               to="/"              
             >
                 <p className="inline-block ml-4  text-2xl font-medium bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent dark:from-blue-400 dark:to-violet-400">
-                  UI :)
+                  UI:)
                     </p>
             </Link>
             {/* <!-- End Logo --> */}
