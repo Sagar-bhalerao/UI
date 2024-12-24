@@ -185,6 +185,76 @@ const Homepage = () => {
           </div>
         </div>
         {/* <!-- End Card --> */}
+
+
+
+        <div className="flex flex-col hover:font-semibold dark:text-black border-2 ease-in-out border-transparent hover:border-blue-500 duration-300 dark:hover:border-blue-600 bg-lime-100  shadow-sm rounded-xl dark:bg-lime-100 dark:border-lime-100 dark:shadow-lime-700/70">
+  <div className="p-4 md:p-5">
+    <h3 className="text-lg font-bold text-gray-800 dark:text-gray-900">
+      Card title
+    </h3>
+    <p className="mt-2 text-gray-600 dark:text-neutral-700">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <a className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 decoration-2 hover:text-blue-700 hover:underline focus:underline focus:outline-none focus:text-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-600 dark:focus:text-blue-600" href="#">
+      Card link
+      <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m9 18 6-6-6-6"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<div className="flex flex-col border-2 hover:font-semibold hover:border-blue-500 duration-300 dark:hover:border-blue-600 bg-red-100  shadow-sm rounded-xl dark:bg-red-100 dark:border-red-100 dark:shadow-red-700/70">
+  <div className="p-4 md:p-5">
+  <h3 className="text-lg font-bold text-gray-800 dark:text-gray-900">
+      Card title
+    </h3>
+    <p className="mt-2 text-gray-600 dark:text-neutral-700">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <a className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 decoration-2 hover:text-blue-700 hover:underline focus:underline focus:outline-none focus:text-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-600 dark:focus:text-blue-600" href="#">
+      Card link
+      <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m9 18 6-6-6-6"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<div className="flex flex-col border-2 hover:font-semibold hover:border-blue-500 duration-300 dark:hover:border-blue-600 bg-orange-100  shadow-sm rounded-xl dark:bg-orange-100 dark:border-orange-100 dark:shadow-orange-700/70">
+  <div className="p-4 md:p-5">
+  <h3 className="text-lg font-bold text-gray-800 dark:text-gray-900">
+      Card title
+    </h3>
+    <p className="mt-2 text-gray-500 dark:text-neutral-700">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <a className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 decoration-2 hover:text-blue-700 hover:underline focus:underline focus:outline-none focus:text-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-600 dark:focus:text-blue-600" href="#">
+      Card link
+      <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m9 18 6-6-6-6"></path>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<div className="flex flex-col border-2 hover:font-semibold hover:border-blue-500 duration-300 dark:hover:border-blue-600 bg-indigo-100  shadow-sm rounded-xl dark:bg-indigo-100 dark:border-indigo-100 dark:shadow-indigo-700/70">
+  <div className="p-4 md:p-5">
+  <h3 className="text-lg font-bold text-gray-800 dark:text-gray-900">
+      Card title
+    </h3>
+    <p className="mt-2 text-gray-500 dark:text-neutral-700">
+      With supporting text below as a natural lead-in to additional content.
+    </p>
+    <a className="mt-3 inline-flex items-center gap-x-1 text-sm font-semibold rounded-lg border border-transparent text-blue-600 decoration-2 hover:text-blue-700 hover:underline focus:underline focus:outline-none focus:text-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:text-blue-600 dark:focus:text-blue-600" href="#">
+      Card link
+      <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m9 18 6-6-6-6"></path>
+      </svg>
+    </a>
+  </div>
+</div>
       </div>
       {/* <!-- End Grid --> */}
 
