@@ -11,6 +11,7 @@ import Formlayout from "./pages/Formlayout/Formlayout";
 import NotFoundPage from "./components/NotFoundPage"
 import Tables from "./components/Tables";
 import Buttons from "./components/Buttons";
+import Cards from "./components/Cards";
 declare global {
   interface Window {
     HSStaticMethods: IStaticMethods;
@@ -34,6 +35,7 @@ function App() {
         <Route path="/forms-layout" element = {<Formlayout/>}/>
         <Route path="/tables-layout" element = {<Tables/>}/>
         <Route path="/buttons-layout" element = {<Buttons/>}/>
+        <Route path="/cards-layout" element = {<Cards/>}/>
         {/* Catch-all route for unmatched pages */}
         <Route path="*" element={<NotFoundPage/>} />
       </Route>

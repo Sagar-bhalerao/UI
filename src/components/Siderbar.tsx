@@ -1,3 +1,4 @@
+import { CiCreditCard1 } from "react-icons/ci";
 import { FaWpforms } from "react-icons/fa";
 import { MdOutlineSmartButton } from "react-icons/md";
 import { TbTableSpark } from "react-icons/tb";
@@ -463,6 +464,22 @@ const Siderbar = () => {
                       </li>
                     </ul>
                   </div>
+                </li>
+
+
+                <li>
+                  <NavLink
+                  to="/cards-layout"
+                    className={({isActive})=>`w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-200 dark:hover:text-neutral-300
+                     ${isActive ? "font-bold dark:text-blue-700 dark:bg-neutral-700  !text-blue-500"
+                                : "hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-200 dark:hover:text-neutral-300"
+                     }
+                    `}
+                   
+                  >
+                  <CiCreditCard1 size={20} />
+                    Cards-layout
+                  </NavLink>
                 </li>
 
                 <li>

@@ -7,9 +7,9 @@ const CursorAnimation = () => {
     <div className="cursor-container">
     <AnimatedCursor
       innerSize={8}
-      outerSize={32}
+      outerSize={25}
       innerScale={1}
-      outerScale={2}
+      outerScale={1.3}
       outerAlpha={0}
       innerStyle={{ backgroundColor: '#44BBA2', }}
       outerStyle={{ border: '1px solid #44BBA2', }}
