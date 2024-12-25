@@ -1,6 +1,9 @@
+import Breadcrumb from "../../components/Breadcrumb";
+
 const Formlayout = () => {
   return (
     <>
+    <Breadcrumb title = "Form-layout"/>
       <div className="min-h-screen bg-gray-100 dark:bg-neutral-800 transition-colors duration-300">
         <div className="">
          {/* Login */}
